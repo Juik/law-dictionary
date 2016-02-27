@@ -14,7 +14,11 @@ A few explanation towards my model:
 1.Why use google's word2vec as "framework" instead of gensim or many other version framework(java,etc)?
 - Gensim is fabulous. As a python user, I love gensim and done several projects before but gensim only implement skip-gram (no CBOW) and only use softmax (without negative sampling). However, if you really want to try, use the resource below.
 
-Version	URL						CBOW		Skip-GramC	http://word2vec.googlecode.com/svn/trunk/	HS	NEG	HS	NEGpython	http://radimrehurek.com/gensim/					HS	 Java	https://github.com/ansjsun/Word2VEC_java	HS	 	HS	 C++	https://github.com/jdeng/word2vec		NA	NA	NA	NA
+
+C	http://word2vec.googlecode.com/svn/trunk/	HS	NEG	HS	NEG
+python	http://radimrehurek.com/gensim/					HS	 
+Java	https://github.com/ansjsun/Word2VEC_java	HS	 	HS	 
+C++	https://github.com/jdeng/word2vec		NA	NA	NA	NA
 
 2.What's the parameter I used for training my model?
 - Even word2vec provide CBOW and skip-gram, I still use skip-gram. CBOW is more like "given context, predict the word in the middle", it takes longer and require even bigger corpus.
