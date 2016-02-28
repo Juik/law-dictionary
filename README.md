@@ -8,7 +8,7 @@ Given a law corpus, create a dictionary for similar words looking-up
 
 3.Generally, you are supposed to train the model but I've already train the model. If you wanna train the model yourself, you can find my complete code here. (http://www.cs.toronto.edu/~zqiu/resource/law-dic.zip)
 
-4.Assume the model has been trained already. In your terminal, run ./distance vectors.bin for word or ./distance vectors-phrase.bin. Then you can follow screen instruction to input your target word and the program will return you the closest words and their corresponding distance to your typing word.
+4.Assume the model has been trained already. In your terminal, run "./distance vectors.bin" for word or "./distance vectors-phrase.bin". Then you can follow screen instruction to input your target word and the program will return you the closest words and their corresponding distance to your typing word.
 
 A few explanation towards my model:
 
@@ -16,13 +16,13 @@ A few explanation towards my model:
 - Gensim is fabulous. As a python user, I love gensim and done several projects before but gensim only implement skip-gram (no CBOW) and only use softmax (without negative sampling). However, if you really want to try, use the resource below.
 
 
-C	http://word2vec.googlecode.com/svn/trunk/	HS	NEG	HS	NEG
-python	http://radimrehurek.com/gensim/					HS	 
-Java	https://github.com/ansjsun/Word2VEC_java	HS	 	HS	 
-C++	https://github.com/jdeng/word2vec		NA	NA	NA	NA
+C	http://word2vec.googlecode.com/svn/trunk/
+python	http://radimrehurek.com/gensim/		 
+Java	https://github.com/ansjsun/Word2VEC_java 
+C++	https://github.com/jdeng/word2vec
 
 2.What's the parameter I used for training my model?
-- Even word2vec provide CBOW and skip-gram, I still use skip-gram. CBOW is more like "given context, predict the word in the middle", it takes longer and require even bigger corpus.
+- Even though word2vec provide CBOW and skip-gram, I still use skip-gram. CBOW is more like "given context, predict the word in the middle", it takes longer and require even bigger corpus.
 - The dimensionality of my model is 48.
 - the window size is 5, which represents before and after 5 words will be taken into consideration.
 - -min-count and -alpha uses default.
