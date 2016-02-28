@@ -6,7 +6,7 @@ Given a law corpus, create a dictionary for similar words looking-up
 
 2.Run merge_files.sh and remove_punc.sh you will get the preprocessed corpus, called "merged".
 
-3.Generally, you are supposed to train the model but I've already train the model. If you wanna train the model yourself, you can find my complete code here. (https://github.com/Juik/law-dictionary)
+3.Generally, you are supposed to train the model but I've already train the model. If you wanna train the model yourself, you can find my complete code here. (http://www.cs.toronto.edu/~zqiu/resource/law-dic.zip)
 
 4.Assume the model has been trained already. In your terminal, run ./distance vectors.bin for word or ./distance vectors-phrase.bin. Then you can follow screen instruction to input your target word and the program will return you the closest words and their corresponding distance to your typing word.
 
