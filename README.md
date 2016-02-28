@@ -9,7 +9,7 @@ Given a law corpus, create a dictionary for similar words looking-up
 
 3.Generally, you are supposed to train the model but I've already train the model. If you wanna train the model yourself, you can find my complete code here. (http://www.cs.toronto.edu/~zqiu/resource/law-dic.zip)
 
-4.Assume the model has been trained already. In your terminal, run "./distance vectors.bin" (or you can download from http://www.cs.toronto.edu/~zqiu/resource/vectors.bin)for word and "./distance vectors-phrase.bin" (or you can download from http://www.cs.toronto.edu/~zqiu/resource/vectors-phrase.bin) for phrases. Then you can follow screen instruction to input your target word and the program will return you the closest words and their corresponding distance to your typing word.
+4.Assume the model has been trained already. In your terminal, run "./distance vectors.bin" (or you can download from http://www.cs.toronto.edu/~zqiu/resource/vectors.bin) for word and "./distance vectors-phrase.bin" (or you can download from http://www.cs.toronto.edu/~zqiu/resource/vectors-phrase.bin) for phrases. Then you can follow screen instruction to input your target word and the program will return you the closest words and their corresponding distance to your typing word.
 
 A few explanation towards my model:
 
