@@ -1,5 +1,6 @@
 # law-dictionary
 Given a law corpus, create a dictionary for similar words looking-up
+
 0.If you only want to try the result, skip process 1,2,3 and directly see 4.
 
 1.You need to make sure your law corpus under this directory. To obtain dataset you can also download from here. (https://drive.google.com/file/d/0B9tRxL7rm9hDTC00b095WndYajQ/view?usp=sharing)
@@ -37,5 +38,5 @@ Thanks to:
 2. Tomas Mikolov, google. http://arxiv.org/pdf/1309.4168.pdf
 
 3. Also, University of Toronto professor.
-- Prof. Hinton’s paper “Learning distributed representations of concepts”, 1986.
-- Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler, “Skip-thought vectors”, 2015.
+-  Prof. Hinton’s paper “Learning distributed representations of concepts”, 1986.
+-  Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler, “Skip-thought vectors”, 2015.
